@@ -1,4 +1,5 @@
 body{
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Spartan', sans-serif;
@@ -19,6 +20,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: normal;
+    padding-bottom: 10px;
 
 }
 
@@ -35,13 +37,26 @@ h4 {
     font-size: 1.25rem;
 }
 
-hr {
-    border-style: dotted none none none;
-    border-color:#f3dfe3;
-    border-width: 10px;
+p {
+    line-height: 2;
+}
+
+.intro {
     width: 30%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: auto;
+
+}
+
+.outro  {
+    width: 30%;
+    margin: auto;
+}
+
+hr {
+    border: dotted #f3dfe3 10px;
+    border-bottom: none;
+    width: 30%;
+    margin: 100px auto;
     
 }
 
@@ -94,14 +109,11 @@ hr {
 
 }
 
-.footer-link {
-    color: white;
-}
-
 .contactme-btn {
     background-color: #11999E;
     border-radius: 10px;
-    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px auto;
     padding: 20px;
     transition-duration: 0.4s;
 
@@ -121,26 +133,34 @@ hr {
 }
 
 .footer-link {
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
-    margin-right: 5px;
     font-size: 20px;
+    margin: 10px 20px;
     padding: 30px;
+    text-decoration: none;
     
 }
 
+.footer-link:hover {
+    color: white;
+}
+
 .copyright  {
-    padding-top: 30px;
+    padding: 20px 10px;
+    color: white;
+    font-size: .75rem;
 }
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 250px;
     top: 50px;
 
 }
 
 .bottom-cloud {
     bottom: 300px;
-    left: 300px;
+    left: 150px;
     position: absolute;
 }
